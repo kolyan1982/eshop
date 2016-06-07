@@ -18,3 +18,5 @@ if (mysqli_connect_errno()) {
     echo "Не удалось установить соединение";
     exit;
 }
+
+basketInit();
